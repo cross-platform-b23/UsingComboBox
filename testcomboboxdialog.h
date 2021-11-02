@@ -18,6 +18,8 @@ public:
 private slots:
     void on_comboBoxColor_currentIndexChanged(const QString &arg1);
 
+    void on_comboBoxColor_currentIndexChanged(int index);
+
 private:
     Ui::TestComboBoxDialog *ui;
 };
